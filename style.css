@@ -3,6 +3,7 @@
 
 body {
   color: #003049;
+  background-color: #eae2b7;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
@@ -12,6 +13,16 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* set the nav bar to be centered and then create spacing between nav elements*/
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px 10px;
 }
 
 article {
@@ -25,6 +36,14 @@ article div {
 
 p {
   line-height: 1.5;
+}
+
+/* Sets the color of the links on the page*/
+a:link {
+  color: #d62828;
+}
+a:hover {
+  color: #f77f00;
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -43,7 +62,15 @@ hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
+footer {
+  text-align: center;
+}
+
+/* sets Pete Thinkful's about photo to display as a circle, to have a border, and to be centered */
 
 .image-circle {
+  display: block;
+  margin: auto;
+  border: 2px solid #003049;
+  border-radius: 50%;
 }
