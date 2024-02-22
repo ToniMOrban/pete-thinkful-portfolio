@@ -8,6 +8,14 @@ body {
   padding: 40px;
 }
 
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
 /* Set the font family for any h1, h2, or h3 heading */
 h1,
 h2,
@@ -60,10 +68,6 @@ img {
 
 hr {
   border: 1px solid black;
-}
-
-footer {
-  text-align: center;
 }
 
 /* sets Pete Thinkful's about photo to display as a circle, to have a border, and to be centered */
