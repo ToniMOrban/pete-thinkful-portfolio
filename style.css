@@ -8,10 +8,7 @@ body {
   padding: 40px;
 }
 
-header {
-  text-align: center;
-}
-
+header,
 footer {
   text-align: center;
 }
@@ -46,8 +43,34 @@ p {
   line-height: 1.5;
 }
 
+/*This ensures that the headings are centered and sets the corresponding font sizes.  While the previous h2 and h3 selector would also do this, putting here allows for changes to just these sections, without impacting the other headers, if needed at a later time*/
+#about h2 {
+  text-align: center;
+  font-size: 24px;
+}
+#about h3 {
+  text-align: center;
+  font-size: 18.72px;
+}
+
+#portfolio h2 {
+  text-align: center;
+  font-size: 24px;
+}
+#portfolio h3 {
+  text-align: center;
+  font-size: 18.72px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
 /* Sets the color of the links on the page*/
 a:link {
+  color: #d62828;
+}
+a:visited {
   color: #d62828;
 }
 a:hover {
