@@ -66,6 +66,15 @@ p {
   text-align: center;
 }
 
+p {
+  text-align: left;
+}
+
+.list-inside li {
+  text-align: left;
+  list-style-position: inside;
+}
+
 /* Sets the color of the links on the page*/
 a:link {
   color: #d62828;
