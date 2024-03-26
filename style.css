@@ -17,12 +17,17 @@ footer p {
   text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Set the font family for any h1, h2, or h3 heading */
 h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+  /*display: inline-block;*/
 }
 
 /* set the nav bar to be centered and then create spacing between nav elements*/
@@ -35,11 +40,11 @@ nav a {
 }
 
 article {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 article div {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
@@ -109,4 +114,22 @@ hr {
   margin: auto;
   border: 2px solid #003049;
   border-radius: 50%;
+}
+
+/* sets spacing */
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.vert-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
 }
